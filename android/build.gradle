@@ -58,7 +58,7 @@ repositories {
 }
 
 dependencies {
-  implementation fileTree(include: ['notifee_core_release.aar'], dir: 'libs')
+  // implementation fileTree(include: ['notifee_core_release.aar'], dir: 'libs')
   implementation 'androidx.concurrent:concurrent-futures:1.0.0'
   implementation 'com.google.android.gms:play-services-tasks:17.0.2'
   implementation 'androidx.work:work-runtime:2.3.4'
@@ -71,7 +71,7 @@ dependencies {
   }
 }
 
-apply from: file("./notifee-json.gradle")
+// apply from: file("./notifee-json.gradle")
 
 ReactNative.shared.applyPackageVersion()
 ReactNative.shared.applyDefaultExcludes()
